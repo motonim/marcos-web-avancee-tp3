@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  font-family: Open Sans,Arial,sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+table {
+  width: 100%;
+}
+
+thead tr {
+  background-color: #e2e2fa9d;
+
+}
+
+tbody {
+  text-align: center;
+}
+
+tbody tr td{
+  box-shadow: rgba(0, 0, 0, 0.05) 2.4px 2.4px 3.2px;
+}
+
+th, tr {
+  height: 50px;
+}
+
+td {
+  padding: 20px;
+}
+
+i {
+  color: #4646c4;
+}
+
+i:hover {
+  border-bottom: 2px solid #4646c4 ;
+}
+
+.px {
+  padding: 0 5vw;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.login__container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  padding: 40px 0;
+}
+
+.header{
+  background-image:linear-gradient(180deg,#ffffff 0%,#e7edf9 100%);
+  padding: 0 190px;
+}
+
+.header h1 {
+  font-family: 'Merriweather',Georgia,"Times New Roman",serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.header h3 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header__text{
+  width: 70%;
+}
+
+.header__img {
+  width: 30%;
+}
+
+.list__title {
+  border-bottom: 3px solid #4646c4;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.etudiant__create--text {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.etudiant__create--link {
+  text-decoration: none;
+  color: #fff;
+  background: #4646c4;
+  border: 2px solid #4646c4;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: color .3s ease,
+              background-color .3s ease;
+}
+
+.etudiant__create--link i {
+  color: #fff;
+  transition: color .3s ease;
+}
+
+.etudiant__create--link:hover {
+  color: #4646c4;
+  background-color: #fff;
+}
+
+.etudiant__create--link:hover i {
+  color: #4646c4;
+}
+
+.etudiant__photo {
+  display: flex;
+    justify-content: center;
+}
+
+.cours__desc {
+  max-width: 900px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+th.cours__desc {
+  text-align: center;
+}
+
+.cours__title {
+  width: 150px;
+  line-height: 1.5;
+}
+
+.form__create > div + div {
+  margin-top: 50px;
+}
+
+.form__create label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.form__create input[type=text], .form__create input[type=email], .form__create input[type=password] {
+  width: 95%;
+  border-radius: 10px;
+  border: none;
+  background-color: #e2e2fa9d;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.form__prenom, .form__nom, .form__phone, .form__courriel {
+  width: 45%;
+}
+
+.form__nomComplet {
+  margin-top: 30px;
+}
+
+.form__select {
+  margin-left: 20px;
+  padding: 5px 10px;
+  width: 130px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.form__submit {
+  color: #fff;
+  background: #4646c4;
+  border: 2px solid #4646c4;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: color .3s ease,
+              background-color .3s ease;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.form__submit:hover {
+  color: #4646c4;
+  background-color: #fff;
+}
+
+.form__btn {
+  display: flex;
+  align-items: center;
+}
+
+.delete {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.home__list {
+  color: #fff;
+  background: #4646c4;
+  border: 2px solid #4646c4;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: color .3s ease,
+              background-color .3s ease;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.home {
+  padding: 100px 0;
+}
+
+.home__list:hover {
+  color: #4646c4;
+  background-color: #fff;
+}
+
+.text-right {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.profile-photo-wrapper {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+}
+
+.profile-photo {
+  width: 100%;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
